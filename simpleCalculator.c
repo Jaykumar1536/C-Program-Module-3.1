@@ -8,7 +8,6 @@ void main(){
     printf("Add. A+B =%d",a+b);
     printf("\nSub. A-B =%d",a-b);
     printf("\nMul. A*B =%d",a*b);
-    printf("\nDiv. A/B =%d",a/b);
-    float result = a%b;
-    printf("\nMod. A%B =%f",result);
+    printf("\nDiv. A/B =%f",(float)a/b);
+    printf("\nMod. A%B =%d",a%b);
 }
